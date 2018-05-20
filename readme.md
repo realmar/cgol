@@ -17,7 +17,7 @@ Right Mouse: Kill cell
 ## Compilation
 First SDL2 is needed on your machine:
 
-On Windows, the easiest way is using vcpkg. On other systems your package manager might already provide an sdl2 package. If it doesn't work you should be able use the vcpkg method too.
+On Windows, the easiest way is using vcpkg. On other systems your package manager might already provide an sdl2 package. If it doesn't work you should be able to use the vcpkg method too.
 ```
 $ vcpkg install sdl2
 
