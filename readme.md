@@ -9,8 +9,5 @@ On Windows, the easiest way is using vcpkg. On other systems your package manage
 ```
 $ vcpkg install sdl2
 
-# don't forget to use vcpkg as your cmake toolchain:
-$ cmake -DCMAKE_TOOLCHAIN_FILE=[PATH_TO_VCPKG_TOOLCHAIN]
-
-# then you can use cmake to generate the build files
-$ cmake CmakeLists.txt
+# then you can use cmake to generate the build files using vcpkg as your toolchain
+$ cmake -DCMAKE_TOOLCHAIN_FILE=[PATH_TO_VCPKG_TOOLCHAIN] CMakeLists.txt
